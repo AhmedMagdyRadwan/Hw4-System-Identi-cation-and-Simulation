@@ -1,4 +1,4 @@
-# Hw4-System-Identication and Simulation
+# Hw4- System Identication and Simulation
 
 Ev3 Line Following  Robot using  PID controller
 
@@ -20,6 +20,11 @@ Description of the work process:
     
  2) I used the LEGO MINDSTORMS EV3 Home Edition software to create the code which i transfered it to the robot using  Bluetooth support which is included in the brick.
  
- 3) after assembling the robot and connected it tomy laptop through bluetooth, first started to detect the max. and min. sensor reading for the light intensity reflected  
+ 3) after assembling the robot and connected it to my laptop through bluetooth, first started to detect the max. and min. sensor reading for the light intensity reflected  
 
-  
+ 4) depending on the below concepts started to tune the values of Ki,Kp,Kd :
+        - The proportional value is approximately proportional to the robot’s position with respect to the line.
+        - The integral value records the history of the robot’s motion: it is a sum of all of the values of the proportional term that were recorded since the robot started running.
+        - The derivative is the rate of change of the proportional value.
+ 5)
+ 
