@@ -31,8 +31,12 @@ Description of the work process:
  
 "how much to turn = Kp * ( midpoint - Light Sensor Reading )"
 
-6) for the Ki, while working inside a loop "integral = integral + error", the main goal is decrease the error by makingth integral part to be zero and that can be achieved by applying another negative error, So the robot will move from one side to the other of the midpoint in order to cancel the error and be exactly on the midpoint.
+6) for the Ki, while working inside a loop "integral = integral + error", the main goal is decrease the error by making the integral part to be zero and that can be achieved by applying another negative error, So the robot will move from one side to the other of the midpoint in order to cancel the error and be exactly on the midpoint.
 
-7) 
+7) for the Kd, first set it to 1 and keeping the ability of the robot to follow the line i decrease it to allow the robot for keeping following the line more smoothly.
+
+
+Thinking the results are correct or more near to correct because the robot followed the line by 97%
+
 
  
